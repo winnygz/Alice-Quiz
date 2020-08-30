@@ -1,0 +1,104 @@
+/* CSS files add styling rules to your content */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2F19426910.jpg?v=1595532326999");
+  background-repeat: one-repeat;
+  background-size: 1010px;
+  background-position: center;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.page1 {
+  background-color: #023e7d;
+  align-content: center;
+  margin: 140px 50px 100px 60px;
+}
+
+h1 {
+  font-family: "Luminari";
+  font-size: 80px;
+  color: white;
+  padding: 60px;
+  text-shadow: 10px 10px #9a031e;
+}
+
+#id"gif" {
+  content-size: auto;
+  margin: 0 0 30px 0;
+  justify-content: center;
+}
+
+.page2 {
+  background-color: #023e7d;
+  align-content: center;
+  margin: 140px 50px 100px 60px;
+}
+
+.page3 {
+  background-color: #023e7d;
+  align-content: center;
+  margin: 140px 50px 100px 60px;
+}
+.page4 {
+  background-color: #023e7d;
+  align-content: center;
+  margin: 140px 50px 100px 60px;
+}
+.page5 {
+  background-color: #023e7d;
+  align-content: center;
+  margin: 140px 50px 100px 60px;
+}
+h2 {
+  font-family: "Chalkduster";
+  font-size: 35px;
+  margin-top: 2em;
+  background-color: #9a031e;
+  text-align: center;
+  padding: 30px;
+}
+
+.question {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.answer-choice img {
+  display: flex;
+  flex-direction: column;
+  border: 20px solid #2a9d8f;
+  margin: 10px 10px;
+  justify-content: center;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  align-content: space-around;
+  text-shadow: 10px 10px 15px #FFD700;
+}
+
+.answer-choice button {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 15px;
+  font-family: "Marker Felt";
+  text-shadow: 10px 10px 15px black;
+  border-radius: 12px;
+  color: #A52A2A;
+  border: 2px solid #4CAF50; /* Green */
+  background: none;
+  float: left;
+  align-content: space-around;
+}
+
+#result {
+  padding: 30px 30px;
+  margin-bottom: 50px;
+}
