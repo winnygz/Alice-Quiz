@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="page1">
+      <h1>Which "Alice In Wonderland" character are you?</h1>
+      <div id="gif">
+        <img
+          src="https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2Ftenor.gif?v=1595522857276"
+        />
+      </div>
+    </div>
+
+    <div class="page2">
+      <h2>Choose the color scheme that most appeal to you...</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2F67268.png?v=1595487652259"
+          />
+          <br />
+          <button id="q1a1">Question 1 Answer Choice 1</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2Fthumbnails%2FSPRING-COLORS.jpeg?1595487837534"
+          />
+          <br />
+          <button id="q1a2">Question 1 Answer Choice 2</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2Fthumbnails%2Fwallpaper.png?1595487652610"
+          />
+          <br />
+          <button id="q1a3">Question 1 Answer Choice 3</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/1122c8d6-cecf-4fcc-aba5-0139b888fc7b%2Fthumbnails%2F63e63337043571.5732b540c4506.jpg?1595488089361"
+          />
+          <br />
+          <button id="q1a4">Question 1 Answer Choice 4</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="page2">
+      <h2>Where in Wonderland would you visit first?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/bd/87/80/bd878068799c4db28ff11db963235d61.jpg"
+          />
+          <b />
+          <button id="q2a1">Mad Hatter’s tea party</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/zz52969d331.jpg"
+          />
+          <b />
+          <button id="q2a2">The Red Queen’s castle</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://vignette.wikia.nocookie.net/aliceinwonderland/images/5/50/Alice-disneyscreencaps.com-2953.jpg/revision/latest?cb=20120702175338"
+          />
+          <b />
+          <button id="q2a3">Meadow of living flowers</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/b7/6a/a4/b76aa45b2ce314820e6de7c0956afa3c.jpg"
+          />
+          <b />
+          <button id="q2a4">The Red Queen’s maze</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="page3">
+      <h2>Which food from Wonderland would you try?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://vignette.wikia.nocookie.net/disney/images/0/0e/Drink_me.png/revision/latest?cb=20150526205235"
+          />
+          <b />
+          <button id="q3a1">
+            The liquid that has a tag says-"drink me",which will make you small
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://www.listchallenges.com/f/items/26a85f97-a1a4-48f7-ad9e-503e9a8b6059.jpg"
+          />
+          <b />
+          <button id="q3a2">
+            The cake has a tag say-"eat me", which will make you grow big
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/60/5b/07/605b07c495b6dc192a3b311a05928470.jpg"
+          />
+          <b />
+          <button id="q3a3">The edible chocolate plates</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/8d/33/52/8d33526d0b7244338a171d1dbb13ca77.jpg"
+          />
+          <b />
+          <button id="q3a4">The bread butterflies</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="page4">
+      <h2>Which quote do you relate to?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1503330588816-7A6Y1OO1JQD2YZVMZIT8/ke17ZwdGBToddI8pDm48kBewjcnsaDiZ2cntBYYKkzUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcQBAFJjvO4YmfgCnadIqjXfkPDdPjGFYP5EyBxmRo1_5pNTSBGYBuVUOyuCGKQEwf/image-asset.png"
+          />
+          <b />
+          <button id="q4a1">
+            “Just when I think I have learn the way to live, life changes.”
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/08/2b/5c/082b5c2472ab7fcf528a67bec20f3af4.jpg"
+          />
+          <b />
+          <button id="q4a2">
+            “We must let go of the life we have planned, so as to accept the one
+            that is waiting for us.”
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://ohmy.disney.com/wp-content/uploads/2015/06/Alice-Looking-Down-the-Rabbit-Hole-in-Alice-in-Wonderland.jpg"
+          />
+          <b />
+          <button id="q4a3">
+            “Nothing is impossible, the word itself says “I'm possible!”
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://i.pinimg.com/originals/cd/4e/6c/cd4e6c2b94c3b6f4609c20e78046d4e6.jpg"
+          />
+          <b />
+          <button id="q4a4">
+            “Do not go where the path may lead, go instead where there is no
+            path and leave a trail.”
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="page5">
+      <h2>Choose the picture that most appeals to you...</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://live.staticflickr.com/3693/8873592475_f4b5a05130_b.jpg"
+          />
+          <b />
+          <button id="q5a1">Daisy field</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://ta-images.condecdn.net/image/L8d6p7LN7wX/crop/1440/f/englishgardens_p048-49_countrylifemag.jpg"
+          />
+          <b />
+          <button id="q5a2">English style garden</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://asiasociety.org/files/uploads/436images/140519_pod_japan.jpg"
+          />
+          <b />
+          <button id="q5a3">Cherry Blossom Rain</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cache.desktopnexus.com/thumbseg/2550/2550699-bigthumbnail.jpg"
+          />
+          <b />
+          <button id="q5a4">Fansy Vibriant Parterre</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+    </div>
+  </body>
+</html>
